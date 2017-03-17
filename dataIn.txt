@@ -1,0 +1,7 @@
+Jerry Seinfeld jerry@seinfeld.com 62 231.65
+Cosmo Kramer cosmo@seinfeld.com 64 2373.22
+George Costanza george@seinfeld.com 56 -78.45
+Elaine Benus elaine@seinfeld.com 55 876.34
+David Puddy david@seinfeld.com 59 1563.43
+Mr. Newman newman@seinfeld.com 61 23.45
+Kenny Bania kenny@seinfled.com 60 673.33

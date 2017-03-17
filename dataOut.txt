@@ -1,0 +1,7 @@
+Jerry Seinfeld jerry@cIsFun.com 63 231.65
+Cosmo Kramer cosmo@cIsFun.com 65 2373.22
+George Costanza george@cIsFun.com 57 -78.45
+Elaine Benus elaine@cIsFun.com 56 876.34
+David Puddy david@cIsFun.com 60 1563.43
+Mr. Newman newman@cIsFun.com 62 23.45
+Kenny Bania kenny@cIsFun.com 61 673.33
