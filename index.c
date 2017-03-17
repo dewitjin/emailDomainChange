@@ -16,7 +16,7 @@ Increase the age of each person by one year.
 
 int main() {
 
-	char firstName[30];			//start varaibles that will store data from dataIn.txt
+	char firstName[30];									//start varaibles that will store data from dataIn.txt
 	char lastName[30];
 	char email[120];
 	int age;
@@ -24,11 +24,11 @@ int main() {
 
 	char divider[] = "---------------------------------------------------------------------";//could be define as a constant prior to main()
 
-	char newEmailDomain[80];	//user input for new email domain, without the '@' symbol
-	char newEmail[120];			//stores new converted email with '@' appended again
+	char newEmailDomain[80];								//user input for new email domain, without the '@' symbol
+	char newEmail[120];									//stores new converted email with '@' appended again
 
-	char *pToken;				//use for strtok function
-	char emailSymbol[120] = "@";//strtok function uses it to break down original email, will append new domain to this variable (needs to be big enough to hold the new content)
+	char *pToken;										//use for strtok function
+	char emailSymbol[120] = "@";								//strtok function uses it to break down original email, will append new domain to this variable (needs to be big enough to hold the new content)
 
 	FILE *fpClient;
 	FILE *fpOutput;
@@ -44,13 +44,13 @@ int main() {
 
 		char *pNewEmailDomain = newEmailDomain;
 
-		while (*pNewEmailDomain != '\0') {		//remember the asterik
+		while (*pNewEmailDomain != '\0') {						//remember the asterik
 			pNewEmailDomain++;
 		}
 
-		*(pNewEmailDomain - 1) = '\0';			//Note NOT [pNewEmailDomain - 1], assign null in order to get rid of '\n' that gets inserted by using fgets - good habit
+		*(pNewEmailDomain - 1) = '\0';							//Note NOT [pNewEmailDomain - 1], assign null in order to get rid of '\n' that gets inserted by using fgets - good habit
 
-		strcat(emailSymbol, newEmailDomain);	//append the '@' to the new email domain again, because user will not append the '@' before the user input
+		strcat(emailSymbol, newEmailDomain);						//append the '@' to the new email domain again, because user will not append the '@' before the user input
 									
 		printf("\n%-13s %-13s %-20s %3s %10s\n", "FirstName", "LastName", "Email Address", "Age", "Balance"); //start printing header
 		printf("%s\n", divider);
