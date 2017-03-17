@@ -7,13 +7,9 @@
 /**
 
 Objective : The purpose of this assignment is to work with sequential text files.
-
 Write a program that reads a text file, modifies some of the data, and writes the modified data back to another text file.
-
 In the program, prompt for and collect an email domain. Open and read the data from dataIn.txt and write back to a file named dataOut.txt.
-
 Update the domain in each email address to the one collected.
-
 Increase the age of each person by one year.
 
 **/
