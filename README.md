@@ -12,7 +12,7 @@ This gist of it is that the app reads from a file dataIn.txt that looks like thi
 
 The data is printed out to the console like this:
 
-![alt tag]()
+![alt tag](https://cloud.githubusercontent.com/assets/6993716/24032039/2e415b58-0aa3-11e7-9671-a801c1d98525.PNG)
 
 Then the data is written to a file dataOut.txt and looks like this:
 
