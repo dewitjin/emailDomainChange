@@ -6,6 +6,18 @@ This is an example of how to read and write files using C (programming language)
 
 The code is pretty short so please review the index.c file.
 
+This gist of it is that the app reads from a file dataIn.txt that looks like this:
+
+![alt tag]()
+
+The data is printed out to the console like this:
+
+![alt tag]()
+
+Then the data is written to a file dataOut.txt and looks like this:
+
+![alt tag]()
+
 ## Motivation
 
 I wanted to upload this to my github because it is a good starting point to introduced developers on how to read and write files in C.
