@@ -8,7 +8,7 @@ The code is pretty short so please review the index.c file.
 
 This gist of it is that the app reads from a file dataIn.txt that looks like this:
 
-![alt tag]()
+![alt tag](https://cloud.githubusercontent.com/assets/6993716/24032208/02f08810-0aa4-11e7-8482-5d84f01040ac.PNG)
 
 The data is printed out to the console like this:
 
@@ -16,7 +16,7 @@ The data is printed out to the console like this:
 
 Then the data is written to a file dataOut.txt and looks like this:
 
-![alt tag]()
+![alt tag](https://cloud.githubusercontent.com/assets/6993716/24032043/33cd1bac-0aa3-11e7-8be7-69aaa9d298f2.PNG)
 
 ## Motivation
 
